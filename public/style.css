@@ -1,0 +1,127 @@
+body,html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100pxc;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(15, 15, 15);
+    background-size: cover;
+    background-position: center;
+}
+
+.celular {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(252, 252, 252);
+    border-bottom: 30px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nome h3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.n{
+    text-align: center;
+    padding: 10%;
+}
+
+.container{
+    margin-top: 100px;
+    border: 3px solid rgb(0, 0, 0);
+    max-width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+    background-image: url(imagens/fundo.png);
+    width: 500px;
+}
+
+#mensagens {
+    list-style-type: none;
+    padding: 20;
+    margin: 0;
+    height: 500px;
+    overflow-y: auto;
+}
+
+/* Estilo para cada mensagem */
+#mensagens li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #baecae;
+    border-radius: 10px;
+    word-wrap: break-word; /* Adiciona quebra de palavra */
+}
+
+
+button {
+    padding: 10px 20px;
+    border: 2px solid rgb(41, 177, 7);
+    background-color:rgb(41, 177, 7);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para o botão de enviar quando desativado */
+button:disabled {
+    background-color: #7F7FD5;
+    cursor: not-allowed;
+}
+
+.direita {
+    text-align: right;
+    background-color: #ccc; /* Gray background color */
+}
+
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(15, 15, 15);
+}
+
+.fotoPerfil {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fotoPerfil img {
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+} 
+.icones{
+  padding-left: 220px;
+}
+.mens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
